@@ -1,0 +1,30 @@
+.wrapper {
+    width: 100%;
+}
+
+.itemBody {
+    display: flex;
+    margin-left: 0.775rem;
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+.profileImg {
+    margin-right: 0.5rem;
+}
+
+.bodyText {
+    flex: 1;
+}
+
+.deleteBtn {
+    margin: 0 0.5rem;
+}
+
+.deleteBtn i {
+    cursor: pointer;
+}
+
+.deleteBtn i:hover {
+    color: var(--secondary);
+}
